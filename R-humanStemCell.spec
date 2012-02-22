@@ -11,8 +11,9 @@ URL:              http://bioconductor.org/packages/release/data/experiment/html/
 Source0:          http://bioconductor.org/packages/release/data/experiment/src/contrib/%{packname}_%{version}.tar.gz
 BuildArch:        noarch
 Requires:         R-core
-Requires:         R-Biobase R-hgu133plus2.db 
-BuildRequires:    R-devel Rmath-devel texlive-collection-latex R-Biobase R-hgu133plus2.db
+Requires:         R-Biobase R-hgu133plus2.db
+BuildRequires:    R-devel Rmath-devel texlive-collection-latex
+BuildRequires:    R-Biobase R-hgu133plus2.db
 
 %description
 Affymetrix time course experiment on human stem cells (two time points:
