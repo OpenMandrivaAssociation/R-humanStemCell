@@ -3,7 +3,7 @@
 
 Name:             R-%{packname}
 Version:          0.2.5
-Release:          1
+Release:          2
 Summary:          Human Stem Cells time course experiment
 Group:            Sciences/Mathematics
 License:          Artistic-2.0
