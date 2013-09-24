@@ -2,13 +2,13 @@
 %global rlibdir  %{_datadir}/R/library
 
 Name:             R-%{packname}
-Version:          0.2.5
-Release:          2
+Version:          0.2.8
+Release:          1
 Summary:          Human Stem Cells time course experiment
 Group:            Sciences/Mathematics
 License:          Artistic-2.0
 URL:              http://bioconductor.org/packages/release/data/experiment/html/%{packname}.html
-Source0:          http://bioconductor.org/packages/release/data/experiment/src/contrib/%{packname}_%{version}.tar.gz
+Source0:          http://bioconductor.org/packages/release/data/experiment/src/contrib/humanStemCell_0.2.8.tar.gz
 BuildArch:        noarch
 Requires:         R-core
 Requires:         R-Biobase R-hgu133plus2.db
@@ -44,3 +44,4 @@ rm -f %{buildroot}%{rlibdir}/R.css
 %{rlibdir}/%{packname}/extdata
 %{rlibdir}/%{packname}/help
 %{rlibdir}/%{packname}/script
+
